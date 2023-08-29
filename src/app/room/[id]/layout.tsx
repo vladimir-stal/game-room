@@ -4,11 +4,6 @@ import RoomHeader from '@/components/room/RoomHeader';
 import { useSession } from 'next-auth/react';
 import { ReactNode } from 'react';
 
-export const metadata = {
-  title: 'Game Room',
-  description: 'Game Room project with Next.js',
-};
-
 interface RoomLayout {
   children: ReactNode;
   params: {
